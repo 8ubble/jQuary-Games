@@ -1,0 +1,125 @@
+body{ 
+	margin:0; 
+	padding:0; 
+	background:#000; 
+	font-family:microsoft yahei;
+}
+#box{ 
+	width: 300px; 
+	height:500px; 
+	margin:10px auto; 
+	overflow:hidden; 
+	position:relative; 
+	border:15px solid #f0f0f0; 
+	background:#000;
+}
+#box .title{ 
+	width:300px; 
+	height:40px; 
+	line-height:40px; 
+	position:absolute; 
+	left:0; 
+	top:80px; 
+	z-index:1; 
+	color:#fff; 
+	text-align:center; 
+	font-size:24px; 
+}
+#box .difficulty{ 
+	width:300px; 
+	position:absolute; 
+	top:180px; 
+	z-index:1; 
+	font-family:microsoft yahei;
+}
+#box .difficulty a{ 
+	width:180px; 
+	height:30px; 
+	line-height:30px; 
+	text-align:center; 
+	display:block; 
+	margin:20px auto 0 auto; 
+	background:#f0f0f0; 
+	color:#333; 
+	text-decoration:none;
+}
+#box .difficulty a:hover{ 
+	background:#900; 
+	color:#fff;
+}
+#box .bg img{ 
+	display:block;
+}
+#box .warcraft{ 
+	width:60px; 
+	height:36px; 
+	position:absolute; 
+	left:120px;  
+	top:500px; 
+	background:url('../img/warcraft.png') center no-repeat; 
+	z-index:3;}
+#box .bullet{ 
+	width:6px; 
+	height:22px; 
+	background:url('../img/bullet.png'); 
+	position:absolute; z-index:2
+}
+#box .enemy{ 
+	width:23px; 
+	height:30px; 
+	background:url('../img/enemy.png'); 
+	position:absolute; 
+	z-index:3
+}
+#box .score { 
+	width:220px; 
+	height:30px; 
+	line-height:30px; 
+	position:absolute; 
+	color:#fff; 
+	font-weight:bold; 
+	padding-left:5px; 
+	font-size:16px; 
+	z-index:5;
+}
+#box .tips{ 
+	width:240px; 
+	height: 200px; 
+	line-height:40px; 
+	padding:10px; 
+	position:absolute; 
+	left:20px; 
+	top:130px;  
+	background:#f0f0f0;
+}
+#box .tips .type{ 
+	width:160px; 
+	padding: 2px 15px; 
+	height:30px; 
+	line-height:30px; 
+	text-align:center; 
+	color:red; 
+	font-weight:bold;
+}
+#box .tips p{ 
+	width:160px; 
+	height:40px; 
+	font-size:32px; 
+	line-height:40px; 
+	text-align:center; 
+	cursor:pointer;  
+	background:#333; 
+	color:#fff; 
+	margin:20px auto 0 auto;
+}
+#box .tips .nn,#box .tips .tt{ 
+	padding:2px 10px; 
+	font-weight:bold;  
+	color:blue;
+}
+#box .tips .tt{ 
+	display:block; 
+	text-align:center; 
+	font-size:24px;
+}
+
